@@ -1,5 +1,9 @@
 "call pathogen#runtime_prepend_subdirectories(expand('~/.vimbundles'))
 
+" Load up pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set ai
 set bg=dark
 set ts=4 sts=4 sw=4 expandtab " 4 tab spaces
